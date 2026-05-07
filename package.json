@@ -1,0 +1,16 @@
+{
+  "name": "lulu-telegram-agent",
+  "version": "1.0.0",
+  "description": "Telegram emotional companion agent (姐姐) - Telegraf + DeepSeek",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.4.5",
+    "https-proxy-agent": "^7.0.6",
+    "telegraf": "^4.16.3"
+  }
+}
